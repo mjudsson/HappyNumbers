@@ -9,6 +9,11 @@ public class HappyNumberTest {
 		assertEquals("feliz", happyNumber.test(1));
 	}
 	@Test
+	public void testaNumero4() {
+		HappyNumber happyNumber = new HappyNumber();
+		assertEquals("infeliz", happyNumber.test(4));
+	}
+	@Test
 	public void testaNumero7() {
 		HappyNumber happyNumber = new HappyNumber();
 		assertEquals("infeliz", happyNumber.test(7));
